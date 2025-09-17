@@ -81,12 +81,20 @@ img {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text);
+}
+
+.logo-icon {
+  width: 3.0rem;
+  height: 3.0rem;
 }
 
 .nav-links {
@@ -120,7 +128,7 @@ img {
 }
 
 .nav-toggle span {
-  width: 1.6rem;
+  width: 0.34rem;
   height: 2px;
   background: var(--text);
   transition:
